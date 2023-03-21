@@ -1,0 +1,64 @@
+svg {
+     display: block;
+     width: 50%;
+     margin: auto;
+    fill:#444d40;
+  }
+
+  .blink {
+    animation: blink 2.5s infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      transform: scale (1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.2, 0.8);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+  
+/* 
+   #Layer_2 {
+    animation: Layer_2 2.5s infinite;
+  }
+  
+  @keyframes Layer_2 {
+    0% {
+      transform: scale (1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.2, 0.8);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  }
+
+  #Layer_3 {
+    animation: Layer_2 2.5s infinite;
+  }
+  
+  @keyframes Layer_2 {
+    0% {
+      transform: scale (1, 1);
+    }
+    25% {
+      transform: scale(0.9, 1.1);
+    }
+    50% {
+      transform: scale(1.2, 0.8);
+    }
+    75% {
+      transform: scale(0.95, 1.05);
+    }
+  } */
